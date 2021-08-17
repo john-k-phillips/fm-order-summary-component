@@ -34,15 +34,31 @@ body {
 }
 
 /* Description */
-
 h1 {
     font-size: 1.4em;
     padding: 1em;
     color:  var(--clr-secondary-font)
 }
 
+.detail-section {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
 .details {
-    /* Details Next */
+    width: 90%;
+}
+
+/* Item Card */
+.item-card {
+    display: flex;
+    align-items: center;
+    background-color:hsl(225, 100%, 98%);
+    padding: 0.5em;
+    gap: 2em;
+    /* This needs fixing and resizing. */
 }
 
 /* Hero Styling */
