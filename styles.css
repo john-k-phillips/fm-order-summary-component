@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --clr-base-font: hsl(224, 23%, 55%);
+    --clr-secondary-font: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    color: var(--clr-base-font);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    border-radius: 1em;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-width: 425px;
+}
+
+/* Description */
+
+h1 {
+    font-size: 1.4em;
+    padding: 1em;
+    color:  var(--clr-secondary-font)
+}
+
+.details {
+    /* Details Next */
+}
+
+/* Hero Styling */
+.hero-illustration {
+    width: 100%;
+    border-radius: 1em 1em 0em 0em
+}
+
+/* Footer Stlying */
+.attribution {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    font-size: 11px; 
+    padding-bottom: 1em;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
