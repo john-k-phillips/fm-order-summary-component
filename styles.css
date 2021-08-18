@@ -3,6 +3,10 @@
 :root {
     --clr-base-font: hsl(224, 23%, 55%);
     --clr-secondary-font: hsl(223, 47%, 23%);
+
+    --clr-main-blue: hsl(224, 23%, 55%);
+    --clr-secondary-blue: hsl(223, 47%, 23%);
+    --clr-light-blue: hsl(245, 75%, 52%);
 }
 
 * {
@@ -33,6 +37,12 @@ body {
     max-width: 425px;
 }
 
+/* Hero Styling */
+.hero-illustration {
+    width: 100%;
+    border-radius: 1em 1em 0em 0em
+}
+
 /* Description */
 h1 {
     font-size: 1.4em;
@@ -49,23 +59,56 @@ h1 {
 
 .details {
     width: 90%;
+    max-width: 325px;
 }
 
 /* Item Card */
 .item-card {
     display: flex;
     align-items: center;
+    padding: 1em;
     background-color:hsl(225, 100%, 98%);
-    padding: 0.5em;
-    gap: 2em;
-    /* This needs fixing and resizing. */
+    gap: 1em;
+    border-radius: 0.5em;
+    margin: 2em 0em 2em 0em;
+    width: 90%;
+    max-width: 325px;
 }
 
-/* Hero Styling */
-.hero-illustration {
-    width: 100%;
-    border-radius: 1em 1em 0em 0em
+ .cancel {
+     margin-left: auto;
+ }
+
+h4 {
+    color: var(--clr-secondary-font);
 }
+
+/* Buttons */
+
+.btn {
+    width: 90%;
+    max-width: 325px;
+    padding: 1.2em;
+    border-radius: 0.5em;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+}
+
+
+.btn-primary {
+    background-color: var(--clr-light-blue);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-secondary {
+    color: var(--clr-base-font);
+    margin-bottom: 0.5em;
+}
+
+
 
 /* Footer Stlying */
 .attribution {
