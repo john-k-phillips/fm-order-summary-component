@@ -32,8 +32,8 @@ Your users should be able to:
 <h2>Satisfication</h2>
 <h3>The Good</h3>
   <ul>
-    <li>I like the use of flexbox with the mobile design.</li>
-    <li>I'm happy with how fast I was able to create a toggleable menu.</li>
+    <li>Placement of images.</li>
+    <li>White spacing across the entire card.</li>
   </ul>
 <h3>The Bad</h3>
   <ul>
