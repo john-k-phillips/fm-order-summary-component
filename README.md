@@ -29,7 +29,7 @@ Your users should be able to:
 ![](./design/mobile-design.jpg)
 
 <!-- REPLACE LIST ITEMS -->
-<h2>Satisfication</h2>
+<h2>Satisfaction</h2>
 <h3>The Good</h3>
   <ul>
     <li>Placement of images.</li>
@@ -56,7 +56,7 @@ Your users should be able to:
     Placing images via the object-fit / object-positioning, this was something I haven't actually practiced alot and I'm looking forward to working
     with images in future projects.
   </p>
-<h3>Continuted Development</h3>
+<h3>Continued Development</h3>
   <p>
     I would like to change how the anchor elements are styled and potentially the border-shadow on the buttons.
   </p>
